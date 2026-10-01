@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-yellow-100 text-gray-900">
+    <nav class="text-2xl flex justify-around items-center p-4 bg-yellow-300 fixed top-0 w-full z-10">
+        <div class="hover:text-red-600 hover:animate-pulse flex items-center gap-2">
+            <ion-icon name="pizza-outline"></ion-icon>
+            <a class="font-serif flex block" href="#">GASEN-DO</a>
+        </div>
+        <div class="flex gap-8 font-serif ">
+            <a href="#home" class="hover:text-yellow-600 hover:animate-bounce">Home</a>
+            <a href="#menu" class="hover:text-yellow-600 hover:animate-bounce">Menu</a>
+            <a href="#about" class="hover:text-yellow-600 hover:animate-bounce">About</a>
+            <a href="#contact" class="hover:text-yellow-600 hover:animate-bounce">Contact</a>
+        </div>
+    </nav>
+    <header class="flex bg-yellow-100 justify-evenly items-center flex-col pt-20">
+        <div class="">
+            <div class="text-3xl ">
+                <br>
+                <h1 class="flex items-center text-center font-mono text-yellow-600 text-4xl"> Gasen Do Restaurant Welcome</h1> <br>
+                <p class="italic items-center text-center text-2xl">Experience the taste of authentic cuisine.</p><br><br>    
+            </div>
+        </div>
+            <img class="w-50 h-50 object-cover shadow-md px-3" src="download.jpg" alt="Delicious Food">     
+            
+                <p class="text-2xl text-justify flex items-center text-center py-10 italic">Your favorite place for delicious food! </p>
+
+            <nav class="flex items-center gap-8 ml-8 pb-20 " >    
+                <button class="border-2 bg-yellow-500 border-yellow-600 rounded-xl px-2 py-2 hover:bg-yellow-600 italic">Explore Menu</button>
+                <button class="border-2 bg-yellow-500 border-yellow-600 rounded-xl px-2 py-2 hover:bg-yellow-600 flex items-center gap-2 hover:text-white italic">Order Now <ion-icon name="cart" class="text-xl"></ion-icon></button>
+            </nav>  
+    </header>
+
+<body class="bg-yellow-100 text-gray-900">
+
+    <div class="py-20 px-8 flex overflow-hidden w-200 mx-auto">
+        <div class="animate-scroll gap-20 ">
+            <img src="coconutt.png" alt="" class="w-80 h-90 border-8 border-white object-cover hover:scale-105 transition duration-300">
+            <img src="springroll.png" alt="" class="w-80 h-90 border-8 border-yellow-500 object-cover hover:scale-105 transition duration-300">
+            <img src="baisachchrouk.jpg" alt="" class="w-80 h-90 border-8 border-yellow-500 object-cover hover:scale-105 transition duration-300">
+            <img src="steakrice.png" alt="" class="w-80 h-90 border-8 border-white object-cover hover:scale-105 transition duration-300">
+            <img src="baysj.jpg" alt="" class="w-80 h-90 border-8 border-brown-500 object-cover hover:scale-105 transition duration-300">
+            <img src="pasta-rice.jpg" alt="" class="w-80 h-90 border-8 border-white object-cover hover:scale-105 transition duration-300">
+            <img src="coconutt.png" alt="" class="w-80 h-90 border-8 border-white object-cover hover:scale-105 transition duration-300">
+            <img src="springroll.png" alt="" class="w-80 h-90 border-8 border-yellow-500 object-cover hover:scale-105 transition duration-300">
+            <img src="steakrice.png" alt="" class="w-80 h-90 border-8 border-white object-cover hover:scale-105 transition duration-300">
+            <img src="baysj.jpg" alt="" class="w-80 h-90 border-8 border-white object-cover hover:scale-105 transition duration-300">
+            
+            <style>
+            @keyframes scroll {
+                from { transform: translateX(0); }
+                to { transform: translateX(-100%); }
+            }
+            .animate-scroll {
+                display: flex;
+                animation: scroll 10s linear infinite;
+            }
+            </style>
+    </style> 
+        </div>
+    </div>
+
+    <!-- Header -->
+    <div class="text-center py-10 space-y-4 md:mt-40">
+        <h1 class="text-4xl font-bold">Our Food</h1>
+        <p class="text-sm text-gray-400">Make with love</p>
+    </div>
+
+    <!-- Cards -->
+    <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 md:grid-cols-3 gap-10 px-6 pb-20 ">
+
+        <!-- Card 1 -->
+        <div class="bg-white rounded-2xl shadow-md p-5">
+            <img id="menu" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP-bxl33D7eXOS1W-FEYfmRB5lVTlozRb3SwBaMDoLSA&s" 
+                 class="rounded-xl w-full mb-5" />
+
+            <h2 class="text-xl font-bold">Hiigin Fsig yeas</h2>
+            <p class="text-gray-500 text-sm mt-2">
+                Livem tetatorsa ancufringep ralasepo etiol estaisip laide de laor tincrams.
+            </p>
+
+            <div class="flex gap-4 mt-5">
+                <button class="px-5 py-2 bg-gray-900 text-white rounded-full">Receive</button>
+                <button class="px-5 py-2 border rounded-full">3$</button>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white rounded-2xl shadow-md p-5">
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80" 
+                 class="rounded-xl w-full mb-5" />
+
+            <h2 class="text-xl font-bold">While lvhie</h2>
+            <p class="text-gray-500 text-sm mt-2">
+                Llaseplonklepa roen orepi arfrenti wardastet estairy laige de laor tincrams.
+            </p>
+
+            <div class="flex gap-4 mt-5">
+                <button class="px-5 py-2 bg-gray-900 text-white rounded-full">Receive</button>
+                <button class="px-5 py-2 border rounded-full">2$</button>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white rounded-2xl shadow-md p-5">
+            <img src="https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=800&q=80" 
+                 class="rounded-xl w-full mb-5" />
+
+            <h2 class="text-xl font-bold">Dergam fdetts</h2>
+            <p class="text-gray-500 text-sm mt-2">
+                Livandristase fare tigmotoleosia renacte estair waislog laide de laor.
+            </p>
+
+            <div class="flex gap-4 mt-5">
+                <button class="px-5 py-2 bg-gray-900 text-white rounded-full">Tense</button>
+                <button class="px-5 py-2 border rounded-full">1.5$</button>
+            </div>
+        </div>
+        <!-- Card 1 -->
+        <div class="bg-white rounded-2xl shadow-md p-5">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP-bxl33D7eXOS1W-FEYfmRB5lVTlozRb3SwBaMDoLSA&s" 
+                 class="rounded-xl w-full mb-5" />
+
+            <h2 class="text-xl font-bold">Hiigin Fsig yeas</h2>
+            <p class="text-gray-500 text-sm mt-2">
+                Livem tetatorsa ancufringep ralasepo etiol estaisip laide de laor tincrams.
+            </p>
+
+            <div class="flex gap-4 mt-5">
+                <button class="px-5 py-2 bg-gray-900 text-white rounded-full">Receive</button>
+                <button class="px-5 py-2 border rounded-full">3$</button>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white rounded-2xl shadow-md p-5">
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80" 
+                 class="rounded-xl w-full mb-5" />
+
+            <h2 class="text-xl font-bold">While lvhie</h2>
+            <p class="text-gray-500 text-sm mt-2">
+                Llaseplonklepa roen orepi arfrenti wardastet estairy laige de laor tincrams.
+            </p>
+
+            <div class="flex gap-4 mt-5">
+                <button class="px-5 py-2 bg-gray-900 text-white rounded-full">Receive</button>
+                <button class="px-5 py-2 border rounded-full">2$</button>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white rounded-2xl shadow-md p-5">
+            <img src="https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=800&q=80" 
+                 class="rounded-xl w-full mb-5" />
+
+            <h2 class="text-xl font-bold">Dergam fdetts</h2>
+            <p class="text-gray-500 text-sm mt-2">
+                Livandristase fare tigmotoleosia renacte estair waislog laide de laor.
+            </p>
+
+            <div class="flex gap-4 mt-5">
+                <button class="px-5 py-2 bg-gray-900 text-white rounded-full">Tense</button>
+                <button class="px-5 py-2 border rounded-full">1.5$</button>
+            </div>
+        </div>
+                <!-- Card 1 -->
+        <div class="bg-white rounded-2xl shadow-md p-5">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP-bxl33D7eXOS1W-FEYfmRB5lVTlozRb3SwBaMDoLSA&s" 
+                 class="rounded-xl w-full mb-5" />
+
+            <h2 class="text-xl font-bold">Hiigin Fsig yeas</h2>
+            <p class="text-gray-500 text-sm mt-2">
+                Livem tetatorsa ancufringep ralasepo etiol estaisip laide de laor tincrams.
+            </p>
+
+            <div class="flex gap-4 mt-5">
+                <button class="px-5 py-2 bg-gray-900 text-white rounded-full">Receive</button>
+                <button class="px-5 py-2 border rounded-full">4$</button>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white rounded-2xl shadow-md p-5">
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80" 
+                 class="rounded-xl w-full mb-5" />
+
+            <h2 class="text-xl font-bold">While lvhie</h2>
+            <p class="text-gray-500 text-sm mt-2">
+                Llaseplonklepa roen orepi arfrenti wardastet estairy laige de laor tincrams.
+            </p>
+
+            <div class="flex gap-4 mt-5">
+                <button class="px-5 py-2 bg-gray-900 text-white rounded-full">Receive</button>
+                <button class="px-5 py-2 border rounded-full">3$</button>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white rounded-2xl shadow-md p-5">
+            <img src="https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=800&q=80" 
+                 class="rounded-xl w-full mb-5" />
+
+            <h2 class="text-xl font-bold">Dergam fdetts</h2>
+            <p class="text-gray-500 text-sm mt-2">
+                Livandristase fare tigmotoleosia renacte estair waislog laide de laor.
+            </p>
+
+            <div class="flex gap-4 mt-5">
+                <button class="px-5 py-2 bg-gray-900 text-white rounded-full">Tense</button>
+                <button class="px-5 py-2 border rounded-full">2$</button>
+            </div>
+           
+        </div>
+        <div class="place-items-center mt-5">
+                <button class="px-5 py-2 w-60 bg-gray-900 text-white rounded-full ml-[430px]">Learn More</button>
+        </div>
+    </div>
+    <div id="about">
+        <div class="text-center py-10 space-y-4">
+            <h1 class="text-4xl font-bold">About Us</h1>
+            <p class="text-sm text-gray-400">Learn more about our restaurant and our story.</p>
+        </div>
+        <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 px-6 pb-20">
+            <img src="traditional-cambodian-food-siem-reap-600nw-2483175133.webp" alt="Restaurant Image" class="rounded-xl w-full object-cover">
+            <div>
+                <h2 class="text-2xl font-bold mb-4">Our Story</h2>
+                <p class="text-gray-500 text-sm mb-4">
+                    Gasen Do Restaurant was founded with the passion for bringing authentic cuisine to our customers. Our chefs use traditional recipes and fresh ingredients to create delicious dishes that satisfy your taste buds.
+                </p>
+                <p class="text-gray-500 text-sm">
+                    We are committed to providing excellent service and a welcoming atmosphere for all our guests. Whether you're dining in or ordering takeout, we strive to make every experience memorable.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+            <nav class="hidden md:flex ">
+            <a href="#home" class="nav-link ml-6 md:ml-12 text-xl text-white transition-all duration-300 border-b-2 border-accent pb-1">Home</a>
+            <a href="#skills" class="nav-link ml-6 md:ml-12 text-xl text-white hover:text-accent transition-all duration-300 border-b-2 border-transparent hover:border-accent pb-1">Skills</a>
+            <a href="#education" class="nav-link ml-6 md:ml-12 text-xl text-white hover:text-accent transition-all duration-300 border-b-2 border-transparent hover:border-accent pb-1 hidden sm:inline">Education</a>
+            <a href="#experience" class="nav-link ml-6 md:ml-12 text-xl text-white hover:text-accent transition-all duration-300 border-b-2 border-transparent hover:border-accent pb-1 hidden sm:inline">Experience</a>
+            <a href="#contact" class="nav-link ml-6 md:ml-12 text-xl text-white hover:text-accent transition-all duration-300 border-b-2 border-transparent hover:border-accent pb-1">Contact</a>
+    </nav>
+
+    </div>
+
+</body>
+</html>
